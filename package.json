@@ -1,0 +1,21 @@
+{
+  "name": "codember",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch challenge1/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msarfer/codember.git"
+  },
+  "author": "Marco Sarrió Ferrández",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msarfer/codember/issues"
+  },
+  "homepage": "https://github.com/msarfer/codember#readme"
+}
