@@ -1,6 +1,7 @@
 import { users } from "./users.js";
 
-const checkInput = (data) => {
+
+export const checkInput = (data) => {
     const REQUIRED_FIELDS = ['usr', 'eme', 'psw', 'age', 'loc', 'fll']
 
     const users = data
@@ -18,7 +19,6 @@ const checkInput = (data) => {
     const validUsers = users.filter(user => REQUIRED_FIELDS.every(field => field in user));
 
     return `submit ${validUsers.length}${validUsers.at(-1).usr}`
-
 }
 
 console.log(checkInput(users))
