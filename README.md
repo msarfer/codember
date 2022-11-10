@@ -5,9 +5,9 @@
 | |__| (_) | (_| |  __/ | | | | | |_) |  __/ |
  \____\___/ \__,_|\___|_| |_| |_|_.__/ \___|_|
 <small style="color:lightgreen">
-           -------------------------------------
-            My solutions of codember challenges
-           -------------------------------------
+           -----------------------------------------
+            My implementation of codember challenges
+           -----------------------------------------
 </small>
 </pre>
 
@@ -24,3 +24,10 @@
 
 ## Usage 💻
 Execute `npm run challengeX`, where `X` is the `number of challenge`.
+
+## Implementations
+| Challenge | Resolution |
+| --- | --- |
+| 01 | [Link](src/challenge01/) |
+
+## Other Solutions
