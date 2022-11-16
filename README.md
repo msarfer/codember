@@ -18,6 +18,10 @@
 │  ├── index.js
 │  ├── README.md
 │  └── users.js
+├── challenge02
+│  ├── index.js
+│  ├── message.js
+│  └── README.md
 ├── package.json
 └── README.md
 ```
@@ -25,9 +29,10 @@
 ## Usage 💻
 Execute `npm run challengeX`, where `X` is the `number of challenge`.
 
-## Implementations
+## Implementations ✅
 | Challenge | Resolution |
 | --- | --- |
 | 01 | [Link](src/challenge01/) |
+| 02 | [Link](src/challenge02/) |
 
-## Other Solutions
+## Other Solutions 🧑🏽‍💻👩🏼‍💻

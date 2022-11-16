@@ -6,12 +6,12 @@ Twitter ha sido comprado y quieren eliminar los bots. Te han pedido ayuda para d
 
 La base de datos es muy antigua y está en un formato extraño. Los perfiles requieren tener los siguientes datos:
 
-- usr: nombre de usuario
-- eme: email
-- psw: contraseña
-- age: edad
-- loc: ubicación
-- fll: número de seguidores
+- `usr`: nombre de usuario
+- `eme`: email
+- `psw`: contraseña
+- `age`: edad
+- `loc`: ubicación
+- `fll`: número de seguidores
 
 Todo está en un fichero donde los datos de usuario son una secuencia de pares `key:value`, que pueden estar en la misma línea o separado por líneas, y cada usuario está separado por un salto de línea. ¡Ojo porque puede estar todo desordenado!
 

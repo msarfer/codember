@@ -4,7 +4,8 @@
   "description": "",
   "type": "module",
   "scripts": {
-    "challenge01": "node src/challenge01"
+    "challenge01": "node --no-warnings src/challenge01",
+    "challenge02": "node --no-warnings src/challenge02"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/msarfer/codember/issues"
   },
-  "homepage": "https://github.com/msarfer/codember#readme"
+  "homepage": "https://github.com/msarfer/codember#readme",
+  "devDependencies": {
+    "standard": "^17.0.0"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
 }
