@@ -40,7 +40,7 @@ Execute `npm start` to execute all challenges.
 ## Implementations ✅
 | Challenge | Resolution |
 | --- | --- |
-| 01 | [Link](src/challenge01/) |
-| 02 | [Link](src/challenge02/) |
-| 03 | [Link](src/challenge03/) |
-| 04 | [Link](src/challenge04/) |
+| 01 | [Link](challenge01/) |
+| 02 | [Link](challenge02/) |
+| 03 | [Link](challenge03/) |
+| 04 | [Link](challenge04/) |
