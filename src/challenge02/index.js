@@ -1,6 +1,4 @@
-import { message } from './message.js'
-
-const decryptor = (text) => {
+export const decryptor = (text) => {
   const message = text
     .split(' ')
     .map((word) => word.match(/9\d{1}|1\d{2}/g))
@@ -8,4 +6,3 @@ const decryptor = (text) => {
 
   return `submit ${message.join(' ')}`
 }
-console.log(decryptor(message))

@@ -1,5 +1,3 @@
-import { users } from './users.js'
-
 export const checkInput = (data) => {
   const REQUIRED_FIELDS = ['usr', 'eme', 'psw', 'age', 'loc', 'fll']
 
@@ -19,5 +17,3 @@ export const checkInput = (data) => {
 
   return `submit ${validUsers.length}${validUsers.at(-1).usr}`
 }
-
-console.log(checkInput(users))
