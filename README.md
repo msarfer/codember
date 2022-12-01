@@ -44,3 +44,4 @@ Execute `npm start` to execute all challenges.
 | 02 | [Link](challenge02/) |
 | 03 | [Link](challenge03/) |
 | 04 | [Link](challenge04/) |
+| 05 | [Link](challenge05/) |
